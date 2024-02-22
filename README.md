@@ -1,4 +1,4 @@
-# Vladyslav Masokha - Trainee Frontend Developer
+# Vladyslav Masokha - Junior Frontend Developer
 
 ## Contact Information
 - Phone: [+380635040209](tel:+380635040209)
