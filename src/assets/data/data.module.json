@@ -1,0 +1,80 @@
+{
+	"fullName": "Vladyslav Masokha",
+	"position": "Trainee Frontend developer",
+	"contactInformation": [
+		{
+			"icon": "<i class=\"fa-solid fa-phone\"></i>",
+			"source": "Phone",
+			"value": "+380635040209",
+			"data": "tel:+380635040209"
+		},
+		{
+			"icon": "<i class=\"fa-solid fa-city\"></i>",
+			"source": "City",
+			"value": "Kyiv, Ukraine"
+		},
+		{
+			"icon": "<i class=\"fa-brands fa-telegram\"></i>",
+			"source": "Telegram",
+			"value": "@vll_kmx",
+			"data": "https://t.me/vll_kmx"
+		},
+		{
+			"icon": "<i class=\"fa-brands fa-github\"></i>",
+			"source": "GitHub",
+			"value": "https://github.com/vladyslav-masokha",
+			"data": "https://github.com/vladyslav-masokha"
+		},
+		{
+			"icon": "<i class=\"fa-brands fa-linkedin\"></i>",
+			"source": "LinkedIn",
+			"value": "https://www.linkedin.com/in/vladyslav-masokha-0a605a290/",
+			"data": "https://www.linkedin.com/in/vladyslav-masokha-0a605a290/"
+		}
+	],
+	"summary": "Front-end developer, no commercial experience, with more than 2 years of web development experience, including personal and open source projects. My goal is to continue to develop my skills and contribute to web development projects that value creativity, innovation, and user-centered design.",
+	"education": [
+		{
+			"institution": "State University of Information and Communication Technologies",
+			"duration": "2023 - present"
+		}
+	],
+	"skills": [
+		"HTML5, CSS3, JavaScript",
+		"Sass",
+		"Responsive Web Design",
+		"Git",
+		"React, Redux"
+	],
+	"softSkills": ["Fast learner", "Time management"],
+	"projectsDescription": "I would like to invite you to review some projects on my GitHub:",
+	"projects": [
+		{
+			"projectName": "HLegal",
+			"projectDescription": ": React & JQuery technologies were used.",
+			"projectSrc": "https://vladyslav-masokha.github.io/hlegal"
+		},
+		{
+			"projectName": "JavaScript documentation",
+			"projectDescription": ": Sass and JavaScript technologies were used.",
+			"projectSrc": "https://vladyslav-masokha.github.io/JavaScript-documentation/"
+		},
+		{
+			"projectName": "English dictionary",
+			"projectDescription": ": A simple website, using Sass and JavaScript technologies.",
+			"projectSrc": "https://vladyslav-masokha.github.io/english-dictionary/"
+		}
+	],
+	"courses": [
+		{ "year": "2022", "data": "Front End Pro' course at Hillel IT-school" },
+		{
+			"year": "2018-2021",
+			"data": "'Java' & 'Web 2.0' courses at RoboCode school"
+		}
+	],
+	"certificatesUrl": [
+		"https://certificate.ithillel.ua/view/47449417",
+		"https://github.com/vladyslav-masokha/Certificates"
+	],
+	"additionalInfo": ["English - Elementary"]
+}
