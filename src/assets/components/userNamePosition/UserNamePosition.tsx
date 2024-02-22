@@ -10,8 +10,8 @@ const UserNamePosition: React.FC<UserNamePositionProps> = ({ data }) => {
 		<div className={styles.userNamePosition}>
 			{data ? (
 				<>
-					<h1 className='userName'>{data.fullName}</h1>
-					<h3 className='userPosition'>{data.position}</h3>
+					<h1 className={styles.userName}>{data.fullName}</h1>
+					<h3 className={styles.userPosition}>{data.position}</h3>
 				</>
 			) : (
 				<h1 className='userName'>Loading..</h1>

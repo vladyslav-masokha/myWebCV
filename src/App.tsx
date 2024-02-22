@@ -3,6 +3,9 @@ import { IData } from './assets/components/IData'
 import { PersonalInfo } from './assets/components/personInfo/PersonalInfo'
 import { UserNamePosition } from './assets/components/userNamePosition/UserNamePosition'
 import styles from './assets/styles/global.module.scss'
+import { ObjectiveInfo } from './assets/components/objectiveInfo/ObjectiveInfo'
+import { EducationInfo } from './assets/components/educationInfo/EducationInfo'
+import { SkillsInfo } from './assets/components/skillsInfo/SkillsInfo'
 
 const App = () => {
 	const [developerInfo, setDeveloperInfo] = useState<IData>({
@@ -31,13 +34,16 @@ const App = () => {
 
 	return (
 		<div className={styles.cv}>
-			<div className='wrapper'>
+			<div className={styles.wrapper}>
 				<UserNamePosition data={developerInfo} />
 				<hr />
 
 				<div className={styles.cvBody}>
 					<div className={styles.part1}>
 						<PersonalInfo data={developerInfo} />
+						<ObjectiveInfo data={developerInfo} />
+            <EducationInfo data={developerInfo} />
+            <SkillsInfo data={developerInfo} />
 					</div>
 				</div>
 			</div>
