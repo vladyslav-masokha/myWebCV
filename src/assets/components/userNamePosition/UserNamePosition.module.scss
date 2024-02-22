@@ -1,0 +1,17 @@
+.userNamePosition {
+	text-align: center;
+	margin: 0 0 30px;
+
+	.userName {
+		font-size: 1.7em;
+		color: var(--dark);
+
+		text-transform: uppercase;
+	}
+
+	.userPosition {
+		font-size: 0.9em;
+		color: var(--lime);
+		font-style: italic;
+	}
+}

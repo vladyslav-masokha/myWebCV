@@ -1,5 +1,5 @@
-import styles from '../../styles/global.module.scss'
 import { IData } from '../IData'
+import styles from './UserNamePosition.module.scss'
 
 interface UserNamePositionProps {
 	data: IData
@@ -14,7 +14,7 @@ const UserNamePosition: React.FC<UserNamePositionProps> = ({ data }) => {
 					<h3 className='userPosition'>{data.position}</h3>
 				</>
 			) : (
-				<h1 className='userName'>Data is not defined!</h1>
+				<h1 className='userName'>Loading..</h1>
 			)}
 		</div>
 	)

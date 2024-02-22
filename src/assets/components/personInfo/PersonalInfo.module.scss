@@ -1,0 +1,14 @@
+.personalInfo {
+	.data {
+		margin: 3px 0 0;
+		font-family: 'Lora', sans-serif;
+
+		.personalInfoData {
+			margin: 0 0 0 5px;
+
+			a {
+				color: var(--dark);
+			}
+		}
+	}
+}
