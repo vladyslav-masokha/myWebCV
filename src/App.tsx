@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { IData } from './assets/components/IData'
-import Copyright from './assets/components/copyright/Copyright'
+import { Copyright } from './assets/components/copyright/Copyright'
 import { AdditionalInfo } from './assets/components/developerInfo/additionalInfo/AdditionalInfo'
 import { CertificatesInfo } from './assets/components/developerInfo/certificatesInfo/CertificatesInfo'
 import CoursesInfo from './assets/components/developerInfo/coursesInfo/CoursesInfo'
