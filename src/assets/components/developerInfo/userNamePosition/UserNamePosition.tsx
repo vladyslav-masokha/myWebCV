@@ -1,4 +1,4 @@
-import { IData } from '../IData'
+import { IData } from '../../IData'
 import styles from './UserNamePosition.module.scss'
 
 interface UserNamePositionProps {

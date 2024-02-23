@@ -1,0 +1,19 @@
+.projectsInfo {
+	margin: 30px 0 0;
+
+	.projectInfoDescription {
+		margin: 0 0 5px;
+	}
+
+	.data {
+		margin: 3px 0 0;
+
+		.projectsInfoData {
+			font-size: 0.9em;
+
+			& a {
+				color: var(--lime);
+			}
+		}
+	}
+}

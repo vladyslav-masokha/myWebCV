@@ -1,5 +1,5 @@
-import { PurpleLine } from '../../ui/PurpleLine/PurpleLine'
-import { IData } from '../IData'
+import { PurpleLine } from '../../../ui/PurpleLine/PurpleLine'
+import { IData } from '../../IData'
 import styles from './ObjectiveInfo.module.scss'
 
 interface ObjectiveInfoProps {

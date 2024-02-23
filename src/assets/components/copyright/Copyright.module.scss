@@ -1,0 +1,16 @@
+.copyright {
+	background-color: var(--dark);
+
+	.wrapper {
+		padding: 0 15px;
+
+		.copyrightBody {
+			display: flex;
+			justify-content: center;
+			padding: 15px 0;
+
+			color: var(--light);
+			font-family: 'Lora', sans-serif;
+		}
+	}
+}
