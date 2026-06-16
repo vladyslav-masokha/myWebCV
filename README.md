@@ -1,43 +1,70 @@
-# Vladyslav Masokha - Junior Frontend Developer
+# Web CV
 
-## Contact Information
-- Phone: [+380635040209](tel:+380635040209)
-- City: Kyiv, Ukraine
-- Telegram: [@vll_kmx](https://t.me/vll_kmx)
-- GitHub: [vladyslav-masokha](https://github.com/vladyslav-masokha)
-- LinkedIn: [Vladyslav Masokha](https://www.linkedin.com/in/vladyslav-masokha-0a605a290/)
+Responsive React CV built as a lightweight static site for Netlify deployment.
 
-## Summary
-Front-end developer, no commercial experience, with more than 2 years of web development experience, including personal and open-source projects. My goal is to continue to develop my skills and contribute to web development projects that value creativity, innovation, and user-centered design.
+## About
 
-## Education
-- State University of Information and Communication Technologies (2023 - present)
+This project turns a one-page CV into a clean web experience with structured React components, reusable data objects, and responsive CSS. The goal is to keep the content easy to update while preserving a polished layout for desktop, mobile, and print.
 
-## Skills
-- HTML5, CSS3, JavaScript
-- Sass
-- Responsive Web Design
-- Git
-- React, Redux
+Contact: [vladyslavmasokha2006@gmail.com](mailto:vladyslavmasokha2006@gmail.com)
 
-## Soft Skills
-- Fast learner
-- Time management
+## Tech Stack
 
-## Projects
-I would like to invite you to review some projects on my [GitHub](https://github.com/vladyslav-masokha):
+- React
+- Vite
+- CSS
+- lucide-react
+- Netlify
 
-- **HLegal**: [React & JQuery technologies were used.](https://vladyslav-masokha.github.io/hlegal)
-- **JavaScript documentation**: [Sass and JavaScript technologies were used.](https://vladyslav-masokha.github.io/JavaScript-documentation/)
-- **English dictionary**: [A simple website, using Sass and JavaScript technologies.](https://vladyslav-masokha.github.io/english-dictionary/)
+## Project Structure
 
-## Courses
-- 2022: Front End Pro' course at Hillel IT-school
-- 2018-2021: 'Java' & 'Web 2.0' courses at RoboCode school
+```text
+src/
+  components/
+    layout/       Page-level layout components
+    sections/     CV content sections
+    ui/           Small reusable UI components
+  data/           CV content and lists
+  App.jsx         Page composition
+  main.jsx        React entry point
+  styles.css      Global responsive styles
+```
 
-## Certificates
-- [Front End Pro' course certificate](https://certificate.ithillel.ua/view/47449417)
-- [Additional certificates](https://github.com/vladyslav-masokha/Certificates)
+## Development
 
-## Additional Information
-- English - Elementary
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the local development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+The project includes `netlify.toml`.
+
+Netlify settings:
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+## Updating CV Content
+
+Most CV text and lists live in `src/data/cvData.js`. Update that file when changing profile text, skills, experience, education, languages, or contact links.
